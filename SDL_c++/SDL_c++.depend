@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1517948437 source:/home/habib/Documents/SDL_Project/SDL_c++/main.cpp
+	<iostream>
+	"SDL/SDL.h"
+
