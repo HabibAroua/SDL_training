@@ -9,7 +9,12 @@ int main ( int argc, char** argv )
     fenetre=SDL_SetVideoMode(500 , 500, 32 , SDL_HWSURFACE);
     while(1)
     {
-
+         SDL_Event event;
+         SDL_WaitEvent(&event);
+         if(event.type==SDL_QUIT)
+         {
+              break;
+         }
     }
     SDL_FreeSurface(fenetre);
 	//Quitter SDL
