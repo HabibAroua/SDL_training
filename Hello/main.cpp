@@ -8,8 +8,13 @@ int main ( int argc, char** argv )
     //Create the window
     SDL_Surface *fenetre=NULL;
     fenetre=SDL_SetVideoMode(500,500,32,SDL_HWSURFACE);
-    //the color of the interface (red)
-    SDL_FillRect(fenetre,NULL,SDL_MapRGB(fenetre->format,255,0,0));
+    //Decalre color
+    Uint32 red,blue,green;
+    red=SDL_MapRGB(fenetre->format,255,0,0);
+    blue=SDL_MapRGB(fenetre->format,0,0,255);
+    green=SDL_MapRGB(fenetre->format,0,255,0);
+    //the color of the interface
+    SDL_FillRect(fenetre,NULL,green);
     SDL_Flip(fenetre);
     //Boucle
     while(1)
