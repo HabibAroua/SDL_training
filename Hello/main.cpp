@@ -1,12 +1,16 @@
 #include <SDL/SDL.h>
 #include<stdio.h>
 #include <SDL.h>
+
 int main ( int argc, char** argv )
 {
     SDL_Init(SDL_INIT_VIDEO);
     //Create the window
     SDL_Surface *fenetre=NULL;
-    fenetre=SDL_SetVideoMode(1000 , 1000, 32 , SDL_HWSURFACE);
+    fenetre=SDL_SetVideoMode(500,500,32,SDL_HWSURFACE);
+    //the color of the interface (red)
+    SDL_FillRect(fenetre,NULL,SDL_MapRGB(fenetre->format,255,0,0));
+    SDL_Flip(fenetre);
     //Boucle
     while(1)
     {
