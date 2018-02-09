@@ -1,6 +1,7 @@
 #include <SDL/SDL.h>
 #include<stdio.h>
 #include <SDL.h>
+#include <iostream>
 
 int main ( int argc, char** argv )
 {
@@ -30,5 +31,6 @@ int main ( int argc, char** argv )
     SDL_FreeSurface(fenetre);
 	//Quitter SDL
 	SDL_Quit();
+
     return 0;
 }
