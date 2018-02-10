@@ -3,6 +3,7 @@
 #include <SDL.h>
 #include <iostream>
 
+using namespace std;
 int main ( int argc, char** argv )
 {
     SDL_Init(SDL_INIT_VIDEO);
@@ -31,6 +32,6 @@ int main ( int argc, char** argv )
     SDL_FreeSurface(fenetre);
 	//Quitter SDL
 	SDL_Quit();
-
+    cout <<"Hello world "<<endl;
     return 0;
 }
