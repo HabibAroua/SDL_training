@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1518033488 source:/home/habib/Documents/SDL_Project/Hello/main.cpp
+1518300511 source:/home/habib/Documents/SDL_Project/Hello/main.cpp
 	<SDL/SDL.h>
 	<stdio.h>
 	<SDL.h>
+	<iostream>
 
 1457863494 /usr/include/SDL/SDL.h
 	"SDL_main.h"

@@ -18,6 +18,15 @@ int main ( int argc, char** argv )
     //the color of the interface
     SDL_FillRect(fenetre,NULL,green);
     SDL_Flip(fenetre);
+    //Create new surface
+    SDL_Surface *carreVert;
+    carreVert=SDL_CreateRGBSurface(SDL_HWACCEL,50,50,32,0,0,0,0);
+    SDL_FillRect(fenetre,NULL,red);
+    SDL_Rect carreVertPoisition;
+    carreVertPoisition.x=0;
+    carreVertPoisition.y=50;
+    SDL_BlitSurface(carreVert,NULL,fenetre,&carreVertPoisition);
+    SDL_Flip(fenetre);
     //Boucle
     while(1)
     {
