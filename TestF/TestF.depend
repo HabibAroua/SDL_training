@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1519249845 source:/home/habib/Documents/SDL_Project/TestF/main.cpp
+	<iostream>
+	<GL/glut.h>
+	<GL/gl.h>
+
+1519250112 source:/home/habib/Documents/SDL_Project/TestF/main.c
+	<GL/glut.h>
+	<GL/gl.h>
+

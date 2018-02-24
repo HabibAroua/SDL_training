@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1519230377 source:/home/habib/Documents/SDL_Project/Test1/gult.cpp
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1519232157 source:/home/habib/Documents/SDL_Project/Test1/main.cpp
+	<iostream>
+	<GL/gl.h>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1519230377 /home/habib/Documents/SDL_Project/Test1/gult.cpp
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+

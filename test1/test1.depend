@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1519255243 source:/home/habib/Documents/SDL_Project/test1/main.cpp
+	<iostream>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/freeglut.h"
+

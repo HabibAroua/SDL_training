@@ -21,13 +21,21 @@ int main ( int argc, char** argv )
     //Create new surface
     SDL_Surface *carreVert;
     carreVert=SDL_CreateRGBSurface(SDL_HWACCEL,50,50,32,0,0,0,0);
-    SDL_FillRect(fenetre,NULL,red);
+    SDL_FillRect(carreVert,NULL,red);
     SDL_Rect carreVertPoisition;
-    carreVertPoisition.x=0;
-    carreVertPoisition.y=50;
+    carreVertPoisition.x=250;
+    carreVertPoisition.y=0;
     SDL_BlitSurface(carreVert,NULL,fenetre,&carreVertPoisition);
     SDL_Flip(fenetre);
-    //Boucle
+    //Create other surface
+    SDL_Surface *carreBlue;
+    carreBlue=SDL_CreateRGBSurface(SDL_HWACCEL,50,50,32,0,0,0,0);
+    SDL_FillRect(carreBlue,NULL,blue);
+    SDL_Rect carreVertPoisition1;
+    carreVertPoisition1.x=250;
+    carreVertPoisition1.y=150;
+    SDL_BlitSurface(carreBlue,NULL,fenetre,&carreVertPoisition1);
+    SDL_Flip(fenetre);
     while(1)
     {
          SDL_Event event;

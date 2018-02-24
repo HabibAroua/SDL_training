@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1518130218 source:/home/habib/Documents/SDL_Project/test/main.cpp
+	<iostream>
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+
